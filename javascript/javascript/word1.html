@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Word Count</title>
+<script type="text/javascript">
+function countLetters(word) {
+    let uppercaseCount = 0;
+    let lowercaseCount = 0;
+    for (let i = 0; i < word.length; i++) {
+      if (word[i] === word[i].toUpperCase()) {
+        uppercaseCount++;
+      } else if (word[i] === word[i].toLowerCase()) {
+        lowercaseCount++;
+      }
+    }
+    console.log(uppercaseCount);
+    console.log(lowercaseCount);
+  }
+  function fucn1()
+  {
+    var str = document.getElementById("word1").value;
+    console.log(str);
+  }
+  </script>
+</head>
+<body>
+ 
+<input type="text" name="word1" id="word1" > 
+<input type="button" name="button" value="submit" onClick="func1()" />
+
+</body>
+</html>

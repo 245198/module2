@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <script>
+        document.write("<table align='center' border='1'>");
+            var h=5;
+            var val =prompt("enetr number");
+            var start=prompt("enter start");
+            var end=prompt("enetr end");
+            if(start<end)
+            {
+        for(var i=start;i<=end;i++)
+        {
+           document.write("<tr>");
+            for(var j=1;j<=5;j++)
+            {
+                if(j==1)
+                {
+                    document.write("<td>"+val+"</td>");
+                }
+                else if(j==2)
+                {
+                    document.write("<td>*</td>");
+                }
+                else if(j==3)
+                {
+                    document.write("<td>"+i+"</td>");
+                }
+                else if(j==4)
+                {
+                    document.write("<td>=</td>");
+                }
+                else
+                {
+                    
+                    document.write("<td>"+val*i+"</td>");
+                }
+            }
+            document.write("</tr>")
+        }
+        document.write("</table>");
+    }
+    else{
+            alert("wrong input");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+.mytable{
+  border: 1px solid rgb(154, 14, 14);
+  background-color: black;
+  width: 98.5%;
+  text-align: center;
+  padding: 7px;
+ font-size: larger;
+ color: white;
+ font-weight: 700;
+ text-decoration: none;
+}
+.myDiv {
+  border: 2px outset black;
+  width: 98.5%;
+  text-align: center;
+  height: 27%;
+  padding: 7px;
+  background-color: burlywood;
+  
+}
+
+
+.nav {
+  border: 2px outset black;
+  width: 36%;
+  height: 45%;
+  float: left;
+  padding: 7px;
+  
+}
+.navcontent{
+  border: 2px outset black;
+  width: 60%;
+  height: 45%;
+  float: right;
+  padding: 7px;
+  
+}
+

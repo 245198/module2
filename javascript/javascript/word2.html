@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Word Count</title>
+</head>
+<body>
+    
+    
+
+      
+        <script type="text/javascript">
+            function count(word)
+            {
+                var uppercaseCount = 0;
+                var lowercaseCount = 0;
+                for (let i = 0; i < word.length; i++) {
+                    if (word[i] === word[i].toUpperCase()) {
+                        uppercaseCount++;
+                    } 
+                    else if (word[i] === word[i].toLowerCase()) 
+                    {
+                            lowercaseCount++;
+                    }
+            }
+    document.write("Uppercase Count: "+uppercaseCount+"<br>");
+    document.write("LowerCase Count: "+lowercaseCount);
+
+        }
+            count("Hello");
+  </script>
+
+</body>
+</html>
